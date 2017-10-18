@@ -1,0 +1,229 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    font-size: 15px;
+    background: #fdfdfd;
+    font-family: "Open Sans", Tahoma, Arial, Sans-Serif;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+form {
+    margin: 0
+}
+a {
+    color: #333; 
+    cursor: pointer
+}
+a, a:focus {
+    outline: none;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    color: #0076a1;
+}
+input, input:focus {
+    outline: none
+}
+#container .container {
+    max-width: 960px;
+    height: auto;
+}
+.container {
+    width: 1280px;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    max-width: 100%;
+}
+body,h1,h2,h3,h4,p,a {
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    color: #303030;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.75;
+}
+header .wrap-menu ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+header .wrap-menu ul a{
+color:#fff;
+}
+body.kienthuc{
+    background-color: #691b1d;
+
+}
+header .wrap-menu ul li:hover a{
+        background: #691b1d;
+    color: #fff568;
+
+}
+.leftcontent{
+        margin-left: -15px;
+    margin-right: -15px;
+    float:left;
+
+}
+
+.rightcontent {
+    width: 30%;
+    padding-left: 15px;
+    padding-right: 15px;
+     float:right;
+
+    
+}
+#prg{
+    width: 70%;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+
+     
+}
+.vv{
+    background: #fdfdfd;
+    padding: 20px;
+    overflow: hidden;
+}
+ img{
+        height: auto;
+    max-width: 100%;
+}
+#main{
+        clear: both;
+    padding: 50px 0;
+}
+.crop{
+    float: none;
+    text-align: center;
+    color: #303030;
+    
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 0.8;
+    margin-bottom: 0;
+    margin-right: 30px;
+}
+ 
+#bs-navbar{
+    background: #872123;
+}
+
+
+#bs-navbar ul li a{
+    border-right:1px solid;
+    margin-left: -2px;
+    margin-right: -2px;
+    font-family: 'Roboto', sans-serif;
+ font-size: 17px;
+ line-height: 1.88;
+
+}
+
+.widget:first-child {
+    margin: 0;
+}
+
+.sidebar-widget-wrapper .widget {
+    padding : 2px;
+    background: #fdfdfd;
+    
+}
+.sidebar-widget-wrapper .widget-title {
+    border-bottom: 5px solid #f6f6f6;
+    padding-bottom: 15px;
+    position: relative;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+search-form {
+    position: relative;
+}
+.widget {
+    margin: 30px 0 0;
+}
+
+.menu_knowledge
+{
+    overflow:hidden;
+    background-color:#872123;
+}
+.menu_knowledge ul
+{
+    height:100%;
+    margin:0;
+}
+.menu_knowledge li
+{
+    float:left;
+    display:block;
+    padding:16px;
+    border-right:1px solid rgba(255, 255, 255, 0.14);
+}
+.menu_knowledge a{
+    color:#fff;
+    font-size:17px;
+    
+}
+.menu_knowledge li:hover 
+{
+    background-color:#691b1d;
+}
+.menu_knowledge li:hover a
+{
+    text-decoration:none;
+    color:#fff568;
+}
+.mmm{
+    display: flex;
+    justify-content: center;
+}
+.menu_knowledge{
+    display: flex;
+    justify-content: center; 
+}
+header .hom {
+   
+    overflow: hidden;
+    text-align: left;
+    font-size: 15px;
+}
+@media only screen and (min-width: 960px) and (max-width: 1240px) {
+
+}
+
+
+/* ==========================================================================
+   Responsive CSS Portrait Tablet
+   ========================================================================== */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+}
+
+
+/* ==========================================================================
+   Responsive CSS Landscape Mobile
+   ========================================================================== */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+
+
+/* ==========================================================================
+   Responsive CSS Portrait Mobile
+   ========================================================================== */
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+
+}
